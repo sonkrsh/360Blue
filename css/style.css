@@ -191,6 +191,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     padding: 0rem 28rem;
+    /* justify-content: center; */
 }
 
 .threegirlContainer {
@@ -475,6 +476,13 @@ header {
     display: none
 }
 
+/* Extra Large Laptop */
+@media only screen and (max-width: 1350px) {
+    #EllipseImg {
+        display: none;
+    }
+}
+
 /* Large Laptop */
 @media only screen and (max-width: 1200px) {
     header {
@@ -517,6 +525,10 @@ header {
 
     .threegirlContainer {
         display: none;
+    }
+
+    .fourBoxes {
+        padding-bottom: 89px;
     }
 
     .listGrup {
@@ -568,6 +580,8 @@ header {
         border-radius: 36px;
         color: #001C3B;
     }
+
+
 }
 
 /* Tablet */
@@ -575,7 +589,7 @@ header {
     header {
         background: url("../images/headerBackgroundTablet.png");
         background-repeat: no-repeat;
-        height: 88rem;
+        height: 92rem;
         width: 100%;
     }
 
@@ -683,6 +697,10 @@ header {
 
     .hs-error-msg {
         width: 23rem;
+    }
+
+    .fourBoxes {
+        padding-bottom: 128px;
     }
 }
 
