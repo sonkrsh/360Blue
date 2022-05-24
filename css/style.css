@@ -1,8 +1,10 @@
 header {
     background: url("../images/headerBackgroundImage.png");
     background-repeat: no-repeat;
-    height: 72rem;
+    height: 66rem;
     width: 100%;
+    background-size: cover;
+    margin-bottom: 3rem;
 }
 
 .leftHeader {
@@ -137,7 +139,7 @@ header {
     align-items: center;
     padding: 0px;
     width: 330px;
-    height: 368px;
+    /* height: 368px; */
     background: #FFFFFF;
     box-shadow: 0px 2px 12px rgba(54, 74, 113, 0.08), 0px 4px 16px rgba(54, 74, 113, 0.04);
     border-radius: 24px;
@@ -179,7 +181,7 @@ header {
 
 #automationImg {
     width: 100%;
-    margin-top: 0.5%;
+    margin-top: 3.4%;
 }
 
 .customCol {
@@ -424,6 +426,10 @@ header {
     letter-spacing: 0.08em;
     color: #001C3B;
     padding-top: 24px;
+}
+
+.customForm input {
+    width: 100% !important;
 }
 
 
@@ -697,5 +703,15 @@ header {
 @media only screen and (max-width: 320px) {
     header {
         height: 103rem;
+    }
+
+    #form {
+
+        padding: 1.5rem;
+
+    }
+
+    .lowerBox {
+        height: 60rem;
     }
 }
