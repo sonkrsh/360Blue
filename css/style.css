@@ -82,15 +82,15 @@ header {
 
 #girlOnBookImg {
     position: absolute;
-    right: 43rem;
-    top: 20rem;
+    right: 46rem;
+    top: 23rem;
     width: 13rem;
 }
 
 #vectorImg {
     position: absolute;
-    right: 39rem;
-    top: 4rem;
+    right: 41rem;
+    top: 8rem;
 }
 
 .formContainer {
@@ -100,17 +100,14 @@ header {
 #frameRightImg {
     position: absolute;
     top: -4rem;
-    left: 32rem;
+    left: 35.5rem;
 }
 
 #EllipseImg {
     position: absolute;
     top: 6rem;
-    left: 35rem;
+    left: 38rem;
 }
-
-
-
 
 .degreefeedbackHeading {
     font-family: 'Lato';
@@ -501,17 +498,6 @@ header {
         width: 100%;
     }
 
-    /* #girlOnBookImg {
-        position: absolute;
-        right: 47rem;
-        top: 20rem;
-    } */
-
-    /* #vectorImg {
-        position: absolute;
-        right: 43rem;
-        top: 5rem;
-    } */
 
     .leftHeader {
         padding: 0rem 7rem;
