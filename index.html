@@ -19,6 +19,7 @@
         font-family: 'Lato', sans-serif;
       }
     </style>
+    <script type="text/javascript" src="./js/jquery.js"></script>
     <script
       charset="utf-8"
       type="text/javascript"
@@ -66,6 +67,23 @@
                       formId: '1db3f34f-1e48-488a-97d0-efc7e6dfa090',
                       cssClass: 'customForm',
                       submitButtonClass: 'customSubmitButton',
+                      onFormReady: function () {
+                        document.getElementById(
+                          'full_name-1db3f34f-1e48-488a-97d0-efc7e6dfa090'
+                        ).placeholder = 'Insert name here';
+                        document.getElementById(
+                          'company-1db3f34f-1e48-488a-97d0-efc7e6dfa090'
+                        ).placeholder = 'Insert company name here';
+                        document.getElementById(
+                          'jobtitle-1db3f34f-1e48-488a-97d0-efc7e6dfa090'
+                        ).placeholder = 'Insert Designation here';
+                        document.getElementById(
+                          'phone-1db3f34f-1e48-488a-97d0-efc7e6dfa090'
+                        ).placeholder = 'Insert phone number here';
+                        document.getElementById(
+                          'email-1db3f34f-1e48-488a-97d0-efc7e6dfa090'
+                        ).placeholder = 'Insert Business email here';
+                      },
                     });
                   </script>
                 </form>
