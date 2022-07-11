@@ -506,6 +506,14 @@ html {
     opacity: 0.8;
 }
 
+.privacyPolicy {
+    cursor: pointer;
+}
+
+.companyIcon img {
+    cursor: pointer;
+}
+
 /* Extra Large Laptop */
 @media only screen and (max-width: 1350px) {
     #EllipseImg {
