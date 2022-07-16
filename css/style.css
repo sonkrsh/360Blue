@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.Feedback {
+    padding-top: 2rem;
+}
+
 .hs-input::placeholder {
     font-size: 12px;
     width: 100%;
@@ -494,18 +498,6 @@ html {
     display: none
 }
 
-.getDemo button {
-
-    width: 240px;
-    height: 53px;
-    left: 260px;
-    top: 4737px;
-
-    background: #FACB33;
-    border-radius: 36px;
-    color: #001C3B;
-}
-
 .getDemo button:hover {
     opacity: 0.8;
 }
@@ -637,6 +629,7 @@ html {
     .lowerBox {
         height: 323px;
     }
+
     .flexibleText {
         font-weight: 700;
         font-size: 30px;
@@ -654,7 +647,7 @@ html {
         margin-top: 140px
     }
 
-   
+
 
     .informText {
         font-weight: 400;
@@ -735,16 +728,18 @@ html {
     .fourBoxes {
         padding-bottom: 128px;
     }
-   
+
 }
+
 @media only screen and (max-width: 482px) {
     header {
         height: 95rem;
     }
-    .Feedback{
+
+    .Feedback {
         padding-top: 12rem;
     }
-   
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -761,7 +756,7 @@ html {
     .getDemo button {
         width: 100%;
     }
-  
+
     .lowerBox {
         height: 60rem;
     }
