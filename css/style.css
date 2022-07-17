@@ -193,6 +193,10 @@ html {
     padding-top: 32px;
 }
 
+.boxImg img {
+    width: 100%;
+}
+
 #automationImg {
     width: 100%;
     margin-top: 3.4%;
@@ -639,6 +643,10 @@ html {
 
 /* Mobile */
 @media only screen and (max-width: 578px) {
+    .FHcontainer {
+        padding-top: 40px;
+    }
+
     header {
         height: 82rem;
     }
